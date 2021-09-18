@@ -70,7 +70,7 @@ body {
 /* UTILS CLASS */
 
 .container {
-  max-width: 1200px;
+  max-width: 1440px;
   width: 100%;
   padding-left: 20px;
   padding-right: 20px;
@@ -80,7 +80,7 @@ body {
 /* HEADER START */
 
 .site-header {
-  padding-top: 85px;
+  padding-top: 65px;
 }
 
 .sitenav-container {
@@ -102,12 +102,12 @@ body {
 } */
 
 .sitenav-btn {
-  padding: 21px 87px 21px 88px;
+  padding: 16px 67px 16px 68px;
   background: #58a9a5;
   border-radius: 15px;
   color: #ffffff;
-  font-size: 25px;
-  line-height: 37px;
+  font-size: 18px;
+  line-height: 35px;
   font-weight: 500;
   transition: all 0.3s ease;
 }
@@ -118,8 +118,8 @@ body {
 
 .sitenav-link {
   color: #404242;
-  font-size: 25px;
-  line-height: 37px;
+  font-size: 18px;
+  line-height: 35px;
   transition: all 0.3s ease;
 }
 
@@ -129,3 +129,41 @@ body {
 }
 
 /* HEADER END */
+
+/* HERO START */
+.hero {
+  padding-top: 85px;
+  padding-bottom: 100px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+}
+.hero-content {
+  width: 743px;
+  margin-right: 72px;
+}
+.hero-heading {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 75px;
+  color: #1c2323;
+  margin-bottom: 30px;
+}
+.hero-text {
+  font-size: 20px;
+  line-height: 35px;
+  color: #404242;
+  margin-bottom: 50px;
+}
+.hero-btn {
+  background: #58a9a5;
+  border-radius: 20px 20px 20px 0px;
+  padding: 16px 63px 16px 60px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 35px;
+  color: #ffffff;
+}
+/* HERO END */
