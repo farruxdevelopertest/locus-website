@@ -169,6 +169,7 @@ body {
 /* HERO END */
 /* work start */
 .work {
+  padding-bottom: 130px;
 }
 
 .work-wrapper {
@@ -228,49 +229,79 @@ body {
   left: -40px;
 }
 
-.go {
-  padding-top: 55px;
+/* CONTACT START */
+
+.contact {
+  padding-bottom: 304px;
+}
+
+.contact-container {
   display: flex;
 }
-
-.a {
-  padding-left: 158px;
+.contact-content {
+  width: 398px;
+  margin-right: 85px;
+}
+.contact-heading {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 85px;
+  color: #1c2323;
+  margin-bottom: 6px;
+}
+.contact-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #486958;
+  margin-bottom: 28px;
+}
+.contact-line {
+  width: 115px;
+  height: 4px;
+  background: #58a9a5;
+  margin-bottom: 6px;
+  border: 0;
 }
 
-.a p {
-  padding-top: 30px;
+.contact-line:last-child {
+  margin-bottom: 0;
+}
+.contact-form {
+  width: 1080px;
+  border: 1px solid #486958;
+  padding: 47px 45px 25px 45px;
+}
+.contact-input {
+  display: block;
+  width: 100%;
+  outline: none;
+  border: 0;
+  margin-bottom: 37px;
+  border-bottom: 1px solid #000;
+  padding: 20px 0;
+}
+
+.contact-input::placeholder {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
   color: #486958;
 }
 
-.ddd {
-  padding-top: 45px;
-  padding-left: 500px;
-}
-
-.ddd h2 {
-  font-size: 26px;
-  padding-bottom: 20px;
-}
-
-.biggest {
+.contact-wrapper {
   display: flex;
+  justify-content: flex-end;
+}
+.contact-btn {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  padding: 15px 53px;
+  background: #58a9a5;
+  border-radius: 20px 20px 20px 0px;
+  border: 0;
 }
 
-.mmm h3 {
-  color: #486958;
-  padding-bottom: 10px;
-}
-
-.mmm p {
-  color: #486958;
-  padding-bottom: 20px;
-}
-
-.bbb {
-  color: #486958;
-  padding-left: 50px;
-}
-
-.bbb h3 {
-  padding-bottom: 10px;
-}
+/* CONTACT END */
