@@ -167,3 +167,110 @@ body {
   color: #ffffff;
 }
 /* HERO END */
+/* work start */
+.work {
+}
+
+.work-wrapper {
+  text-align: center;
+}
+.work-heading {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 75px;
+  /* identical to box height */
+
+  text-align: center;
+  margin-bottom: 15px;
+  color: #1c2323;
+}
+.work-little {
+  font-size: 20px;
+  line-height: 35px;
+  color: #404242;
+  margin-bottom: 51px;
+}
+.work-img-wrapper {
+  display: flex;
+}
+.work-img {
+  width: 963px;
+  min-height: 300px;
+  display: block;
+}
+.work-content {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  padding-left: 115px;
+  padding-right: 106px;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #ccf0e6;
+  position: relative;
+}
+.work-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #486958;
+  margin-bottom: 31px;
+}
+.work-subtitle {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 30px;
+  color: #486958;
+  letter-spacing: 1.5px;
+}
+
+.work-play-wrapper {
+  position: absolute;
+  bottom: 40px;
+  left: -40px;
+}
+
+.go {
+  padding-top: 55px;
+  display: flex;
+}
+
+.a {
+  padding-left: 158px;
+}
+
+.a p {
+  padding-top: 30px;
+  color: #486958;
+}
+
+.ddd {
+  padding-top: 45px;
+  padding-left: 500px;
+}
+
+.ddd h2 {
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+
+.biggest {
+  display: flex;
+}
+
+.mmm h3 {
+  color: #486958;
+  padding-bottom: 10px;
+}
+
+.mmm p {
+  color: #486958;
+  padding-bottom: 20px;
+}
+
+.bbb {
+  color: #486958;
+  padding-left: 50px;
+}
+
+.bbb h3 {
+  padding-bottom: 10px;
+}
