@@ -166,6 +166,13 @@ body {
   line-height: 35px;
   color: #ffffff;
 }
+
+.hero-img {
+  width: 534px;
+  height: 482px;
+  display: inline-block;
+}
+
 /* HERO END */
 /* work start */
 .work {
@@ -305,3 +312,74 @@ body {
 }
 
 /* CONTACT END */
+
+/* MEDIA */
+
+@media screen and (max-width: 1000px) {
+  * {
+    margin-right: 0 !important;
+  }
+
+  .sitenav-container,
+  .hero-container,
+  .work-img-wrapper,
+  .contact-container,
+  .sitenav-list {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sitenav-logo {
+    margin-bottom: 15px;
+  }
+
+  .site-nav,
+  .contact-content {
+    margin-bottom: 25px;
+  }
+
+  .hero-heading,
+  .work-heading,
+  .contact-heading {
+    font-size: 32px;
+  }
+
+  .hero-text,
+  .work-text,
+  .contact-text {
+    font-size: 16px;
+  }
+
+  .sitenav-btn,
+  .hero-btn,
+  .contact-btn {
+    padding: 10px 48px;
+    font-size: 16px;
+  }
+
+  .hero-content {
+    margin-bottom: 35px;
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 334px;
+    height: 282px;
+  }
+
+  .work-img,
+  .work-content,
+  .contact-form,
+  .hero-content {
+    width: 100%;
+  }
+
+  .work-play-wrapper {
+    top: -140px;
+    left: 30px;
+  }
+
+  .work-content {
+    padding: 15px;
+  }
+}
